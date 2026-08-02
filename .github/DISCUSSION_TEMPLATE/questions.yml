@@ -1,0 +1,36 @@
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in TerraQuorum.
+
+        Use this template for questions about setup, usage, architecture or roadmap. Do not include secrets, private `.env` values or security vulnerabilities.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: First checks
+      description: Please confirm before posting.
+      options:
+        - label: I added a descriptive title.
+          required: true
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: I checked the README and development documentation.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to understand or achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add relevant setup, commands, logs, screenshots or links. Remove private data first.
+      placeholder: |
+        - OS:
+        - Docker/Bun/uv versions:
+        - What you tried:

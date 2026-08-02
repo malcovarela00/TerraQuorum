@@ -1,0 +1,128 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">TerraQuorum</title>
+  <desc id="description">A cheerful globe assistant connects country research, data comparison and diplomatic simulation.</desc>
+  <defs>
+    <linearGradient id="background" x1="70" y1="32" x2="1110" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="866" y1="94" x2="1007" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="land" x1="852" y1="109" x2="1025" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity=".45"/>
+    </filter>
+    <clipPath id="globe-clip">
+      <circle cx="930" cy="200" r="112"/>
+    </clipPath>
+    <clipPath id="panel-clip">
+      <rect x="1" y="1" width="1198" height="418" rx="32"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="418" rx="32" fill="url(#background)"/>
+  <g clip-path="url(#panel-clip)">
+    <circle cx="1120" cy="34" r="190" fill="#1D4ED8" opacity=".13"/>
+    <circle cx="78" cy="390" r="170" fill="#14B8A6" opacity=".11"/>
+    <path d="M0 332C196 271 318 390 511 330C706 270 854 356 1200 269V420H0V332Z" fill="#0B2235" opacity=".72"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="32" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <g opacity=".38" fill="#5EEAD4">
+    <circle cx="82" cy="72" r="3"/>
+    <circle cx="706" cy="75" r="4"/>
+    <circle cx="1127" cy="336" r="3"/>
+    <path d="M670 330h18M679 321v18" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="70" y="58" width="162" height="34" rx="17" fill="#134E4A"/>
+    <circle cx="91" cy="75" r="6" fill="#5EEAD4"/>
+    <text x="105" y="81" fill="#CCFBF1" font-size="16" font-weight="700">OPEN SOURCE</text>
+    <text x="70" y="163" fill="#F8FAFC" font-size="66" font-weight="850" letter-spacing="-2">TerraQuorum</text>
+    <text x="70" y="211" fill="#7DD3FC" font-size="27" font-weight="700">Explore the world. Debate the data.</text>
+    <text x="70" y="257" fill="#CBD5E1" font-size="19">Country intelligence and diplomatic simulation,</text>
+    <text x="70" y="286" fill="#CBD5E1" font-size="19">powered by public data and multiple AI providers.</text>
+
+    <g transform="translate(70 326)">
+      <rect width="130" height="40" rx="20" fill="#172554" stroke="#3B82F6"/>
+      <text x="26" y="26" fill="#BFDBFE" font-size="15" font-weight="700">RESEARCH</text>
+      <rect x="144" width="124" height="40" rx="20" fill="#134E4A" stroke="#14B8A6"/>
+      <text x="169" y="26" fill="#CCFBF1" font-size="15" font-weight="700">COMPARE</text>
+      <rect x="282" width="126" height="40" rx="20" fill="#3B1D5A" stroke="#A855F7"/>
+      <text x="305" y="26" fill="#E9D5FF" font-size="15" font-weight="700">SIMULATE</text>
+    </g>
+  </g>
+
+  <path d="M772 124C796 128 807 140 820 156" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9"/>
+  <path d="M772 311C796 301 807 286 819 270" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9"/>
+  <path d="M1040 148C1061 132 1071 119 1081 105" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9"/>
+
+  <g filter="url(#shadow)">
+    <rect x="616" y="72" width="156" height="80" rx="18" fill="#172554" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="638" y="92" width="38" height="40" rx="7" fill="#1E3A8A" stroke="#93C5FD" stroke-width="3"/>
+    <path d="M646 103H667M646 112H661" stroke="#93C5FD" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="674" cy="125" r="10" fill="#172554" stroke="#60A5FA" stroke-width="4"/>
+    <path d="M681 132L688 139" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+    <rect x="700" y="93" width="48" height="7" rx="3.5" fill="#60A5FA"/>
+    <rect x="700" y="108" width="38" height="6" rx="3" fill="#475569"/>
+    <rect x="700" y="121" width="30" height="6" rx="3" fill="#475569"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="616" y="272" width="156" height="80" rx="18" fill="#103B38" stroke="#14B8A6" stroke-width="2"/>
+    <rect x="640" y="319" width="12" height="13" rx="3" fill="#2DD4BF"/>
+    <rect x="660" y="304" width="12" height="28" rx="3" fill="#5EEAD4"/>
+    <rect x="680" y="292" width="12" height="40" rx="3" fill="#99F6E4"/>
+    <path d="M717 296L733 312L717 328" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M1070 50H1142C1152 50 1160 58 1160 68V103C1160 113 1152 121 1142 121H1115L1098 138V121H1070C1060 121 1052 113 1052 103V68C1052 58 1060 50 1070 50Z" fill="#3B1D5A" stroke="#A855F7" stroke-width="2"/>
+    <circle cx="1080" cy="86" r="5" fill="#D8B4FE"/>
+    <circle cx="1106" cy="86" r="5" fill="#D8B4FE"/>
+    <circle cx="1132" cy="86" r="5" fill="#D8B4FE"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <circle cx="930" cy="200" r="117" fill="#082F49" stroke="#7DD3FC" stroke-width="3"/>
+    <circle cx="930" cy="200" r="112" fill="url(#globe)"/>
+    <g clip-path="url(#globe-clip)">
+      <path d="M839 121C862 104 885 94 916 88L926 112L913 132L882 136L869 154L847 153L830 139L839 121Z" fill="url(#land)"/>
+      <path d="M972 96L1005 111L1019 134L1008 153L982 150L969 136L948 131L942 111L972 96Z" fill="url(#land)"/>
+      <path d="M840 184L866 165L892 170L907 190L899 215L915 239L900 275L877 284L865 258L848 244L831 212L840 184Z" fill="url(#land)"/>
+      <path d="M955 164L982 158L1014 175L1034 204L1020 231L990 230L978 250L953 238L942 209L955 164Z" fill="url(#land)"/>
+      <path d="M1001 261L1022 266L1028 286L1006 298L990 283L1001 261Z" fill="url(#land)"/>
+      <ellipse cx="930" cy="200" rx="58" ry="112" stroke="#E0F2FE" stroke-opacity=".38" stroke-width="2"/>
+      <path d="M818 200H1042M829 157H1031M829 243H1031" stroke="#E0F2FE" stroke-opacity=".38" stroke-width="2"/>
+    </g>
+
+    <path d="M833 164C813 166 800 183 800 204V220" stroke="#A78BFA" stroke-width="12" stroke-linecap="round"/>
+    <path d="M1027 164C1047 166 1060 183 1060 204V220" stroke="#A78BFA" stroke-width="12" stroke-linecap="round"/>
+    <rect x="790" y="208" width="31" height="57" rx="14" fill="#7C3AED" stroke="#C4B5FD" stroke-width="3"/>
+    <rect x="1039" y="208" width="31" height="57" rx="14" fill="#7C3AED" stroke="#C4B5FD" stroke-width="3"/>
+    <path d="M1061 259C1061 283 1042 296 1019 296H1006" stroke="#A78BFA" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="1000" cy="296" r="8" fill="#C4B5FD"/>
+
+    <circle cx="893" cy="202" r="8" fill="#082F49"/>
+    <circle cx="967" cy="202" r="8" fill="#082F49"/>
+    <circle cx="890" cy="199" r="2.5" fill="#F8FAFC"/>
+    <circle cx="964" cy="199" r="2.5" fill="#F8FAFC"/>
+    <path d="M902 232C918 248 944 248 959 232" stroke="#082F49" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="875" cy="222" r="10" fill="#F472B6" opacity=".45"/>
+    <circle cx="985" cy="222" r="10" fill="#F472B6" opacity=".45"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <rect x="1008" y="304" width="160" height="64" rx="18" fill="#172033" stroke="#475569" stroke-width="2"/>
+    <circle cx="1034" cy="328" r="10" fill="#10B981"/>
+    <path d="M1029 328L1033 332L1040 324" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1052" y="327" fill="#F8FAFC" font-size="14" font-weight="700">Consensus?</text>
+    <text x="1052" y="348" fill="#94A3B8" font-size="12">Let's simulate.</text>
+  </g>
+</svg>

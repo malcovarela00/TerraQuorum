@@ -1,0 +1,28 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="28" fill="#111827"/>
+  <text x="54" y="78" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Diplomatic stance simulation</text>
+  <text x="54" y="114" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="17">Explore likely positions, rationales and voting blocs.</text>
+
+  <rect x="54" y="158" width="852" height="318" rx="24" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="92" y="210" fill="#5eead4" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Resolution: global climate adaptation fund</text>
+
+  <rect x="92" y="252" width="216" height="154" rx="20" fill="#064e3b"/>
+  <text x="124" y="296" fill="#d1fae5" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">42%</text>
+  <text x="124" y="332" fill="#a7f3d0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Likely support</text>
+  <text x="124" y="364" fill="#a7f3d0" font-family="Inter, Arial, sans-serif" font-size="14">Kenya / Brazil / Spain</text>
+
+  <rect x="372" y="252" width="216" height="154" rx="20" fill="#713f12"/>
+  <text x="404" y="296" fill="#fef3c7" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">34%</text>
+  <text x="404" y="332" fill="#fde68a" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Conditional</text>
+  <text x="404" y="364" fill="#fde68a" font-family="Inter, Arial, sans-serif" font-size="14">India / Argentina</text>
+
+  <rect x="652" y="252" width="216" height="154" rx="20" fill="#7f1d1d"/>
+  <text x="684" y="296" fill="#fee2e2" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">24%</text>
+  <text x="684" y="332" fill="#fecaca" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Likely oppose</text>
+  <text x="684" y="364" fill="#fecaca" font-family="Inter, Arial, sans-serif" font-size="14">Based on topic context</text>
+
+  <rect x="92" y="430" width="776" height="18" rx="9" fill="#1e293b"/>
+  <rect x="92" y="430" width="326" height="18" rx="9" fill="#10b981"/>
+  <rect x="418" y="430" width="264" height="18" rx="9" fill="#f59e0b"/>
+  <rect x="682" y="430" width="186" height="18" rx="9" fill="#ef4444"/>
+</svg>

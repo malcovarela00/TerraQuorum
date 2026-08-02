@@ -1,0 +1,45 @@
+docs:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/*.md'
+
+frontend:
+  - changed-files:
+    - any-glob-to-any-file:
+      - frontend/**
+
+backend:
+  - changed-files:
+    - any-glob-to-any-file:
+      - backend/app/**
+      - backend/pyproject.toml
+
+tests:
+  - changed-files:
+    - any-glob-to-any-file:
+      - backend/tests/**
+      - frontend/tests/**
+      - frontend/playwright.config.ts
+
+mcp:
+  - changed-files:
+    - any-glob-to-any-file:
+      - backend/app/mcp_servers/**
+
+deployment:
+  - changed-files:
+    - any-glob-to-any-file:
+      - compose*.yml
+      - Dockerfile
+      - backend/Dockerfile
+      - frontend/Dockerfile
+      - frontend/Dockerfile.playwright
+      - deployment.md
+
+internal:
+  - changed-files:
+    - any-glob-to-any-file:
+      - .github/**
+      - scripts/**
+      - .gitignore
+      - .pre-commit-config.yaml

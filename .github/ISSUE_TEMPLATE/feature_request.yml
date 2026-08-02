@@ -1,0 +1,60 @@
+name: Feature request
+description: Propose a scoped improvement or new capability for TerraQuorum.
+labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an improvement. Please avoid including secrets, private data or security vulnerabilities.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: First checks
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: This request is scoped enough to discuss or implement.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user need does this address?
+      placeholder: |
+        As a researcher, I want to compare countries by indicator over time so that...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should TerraQuorum do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Country data
+        - Chat / AI
+        - Diplomatic simulation
+        - Frontend UX
+        - Backend API
+        - MCP tools
+        - Deployment
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you consider?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add links, screenshots, datasets or examples if useful. Remove private data first.

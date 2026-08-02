@@ -1,0 +1,54 @@
+- name: bug
+  color: d73a4a
+  description: Something is not working as expected.
+- name: feature
+  color: 0e8a16
+  description: New capability or product improvement.
+- name: docs
+  color: 0075ca
+  description: Documentation-only changes.
+- name: good first issue
+  color: 7057ff
+  description: Small, well-scoped task for first-time contributors.
+- name: help wanted
+  color: 008672
+  description: Maintainers would welcome community help.
+- name: security
+  color: ee0701
+  description: Security-sensitive change or report.
+- name: frontend
+  color: 1d76db
+  description: React, UI, routing or frontend tests.
+- name: backend
+  color: 5319e7
+  description: FastAPI, MongoDB, services or backend tests.
+- name: mcp
+  color: bfdadc
+  description: MCP country tools and related integrations.
+- name: ai
+  color: c5def5
+  description: AI provider behavior, prompts or model integration.
+- name: country-data
+  color: fef2c0
+  description: Country indicators, data sources or seed data.
+- name: deployment
+  color: f9d0c4
+  description: Docker, Compose, Traefik or release infrastructure.
+- name: tests
+  color: fbca04
+  description: Backend, frontend or E2E test coverage.
+- name: refactor
+  color: cccccc
+  description: Internal cleanup without behavior changes.
+- name: upgrade
+  color: bfd4f2
+  description: Dependency or tooling upgrade.
+- name: breaking
+  color: b60205
+  description: Breaking change.
+- name: internal
+  color: e4e669
+  description: Repository maintenance or automation.
+- name: discussion needed
+  color: d4c5f9
+  description: Needs product or architecture discussion first.

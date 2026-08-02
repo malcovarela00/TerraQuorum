@@ -1,0 +1,19 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" rx="48" fill="#07111f"/>
+  <circle cx="1080" cy="120" r="260" fill="#1d4ed8" opacity="0.2"/>
+  <circle cx="180" cy="520" r="220" fill="#14b8a6" opacity="0.18"/>
+  <rect x="76" y="76" width="1128" height="488" rx="36" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="132" y="178" fill="#5eead4" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TerraQuorum</text>
+  <text x="132" y="268" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">Country intelligence</text>
+  <text x="132" y="342" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">and diplomatic simulation</text>
+  <text x="132" y="424" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="28">FastAPI / React / MongoDB / MCP Tools / Multi-provider AI</text>
+  <rect x="132" y="468" width="208" height="54" rx="27" fill="#14b8a6"/>
+  <text x="164" y="504" fill="#042f2e" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Open Source</text>
+  <rect x="760" y="180" width="320" height="246" rx="24" fill="#111827" stroke="#475569" stroke-width="2"/>
+  <rect x="792" y="220" width="116" height="24" rx="12" fill="#38bdf8"/>
+  <rect x="792" y="264" width="232" height="16" rx="8" fill="#64748b"/>
+  <rect x="792" y="296" width="196" height="16" rx="8" fill="#64748b"/>
+  <rect x="792" y="340" width="96" height="54" rx="14" fill="#0f766e"/>
+  <rect x="912" y="340" width="96" height="54" rx="14" fill="#1d4ed8"/>
+  <rect x="1032" y="340" width="96" height="54" rx="14" fill="#7c3aed"/>
+</svg>

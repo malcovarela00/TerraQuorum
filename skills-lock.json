@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "api-design-principles": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3316239df2bdcb41e992857b8142e0239e6964564dd5d7224e470c2ab350a03c"
+    },
+    "playwright-best-practices": {
+      "source": "currents-dev/playwright-best-practices-skill",
+      "sourceType": "github",
+      "computedHash": "320eaf861e3a0a923bfaad0726cb311a3fe30093378f8d26c89b9c5ae5c42b35"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "c858d2d9023e73edb4e5504868cb0e36313e58fd56af12ef888b43c5634a3c17"
+    },
+    "vite-react-best-practices": {
+      "source": "claudiocebpaz/vite-react-best-practices",
+      "sourceType": "github",
+      "computedHash": "c383dacdd55b97e7c36641e7d0ac0c094266ef22458dea31c5000cb3e29e3d49"
+    }
+  }
+}

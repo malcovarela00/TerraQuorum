@@ -1,0 +1,65 @@
+name: Bug report
+description: Report a reproducible problem in TerraQuorum.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve TerraQuorum.
+
+        Please do not include secrets, API keys, database dumps, private `.env` values or security vulnerabilities in public issues.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: First checks
+      description: Please confirm before submitting.
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: I can reproduce this with the current code.
+          required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include commands, route, prompt or workflow needed to reproduce the issue.
+      placeholder: |
+        1. Run `docker compose watch`
+        2. Open `http://localhost:5173`
+        3. Ask ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Frontend
+        - Backend
+        - AI providers
+        - MCP country tools
+        - Docker / deployment
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add logs, screenshots or relevant context. Remove private data first.

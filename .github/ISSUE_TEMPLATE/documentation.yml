@@ -1,0 +1,45 @@
+name: Documentation issue
+description: Report missing, confusing or outdated documentation.
+labels: [docs]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for improving the TerraQuorum documentation.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: First checks
+      options:
+        - label: I checked the current README and linked docs.
+          required: true
+        - label: This does not include private `.env` values, secrets or credentials.
+          required: true
+  - type: dropdown
+    id: docs_area
+    attributes:
+      label: Documentation area
+      multiple: true
+      options:
+        - README
+        - Development setup
+        - Deployment
+        - Backend
+        - Frontend
+        - Security
+        - API / OpenAPI
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is missing or confusing?
+      description: Describe the documentation problem.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: What should the docs say or link to?

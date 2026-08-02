@@ -1,0 +1,27 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="28" fill="#0f172a"/>
+  <rect x="34" y="34" width="220" height="492" rx="20" fill="#111827"/>
+  <text x="62" y="86" fill="#5eead4" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">TerraQuorum</text>
+  <rect x="62" y="126" width="150" height="28" rx="14" fill="#1f2937"/>
+  <rect x="62" y="178" width="158" height="18" rx="9" fill="#334155"/>
+  <rect x="62" y="214" width="126" height="18" rx="9" fill="#334155"/>
+  <rect x="62" y="250" width="172" height="18" rx="9" fill="#334155"/>
+
+  <rect x="286" y="34" width="640" height="492" rx="20" fill="#f8fafc"/>
+  <text x="326" y="88" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">AI country research chat</text>
+  <rect x="326" y="122" width="154" height="34" rx="17" fill="#dbeafe"/>
+  <text x="348" y="145" fill="#1e40af" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">OpenAI / GPT</text>
+
+  <rect x="326" y="196" width="430" height="74" rx="18" fill="#e0f2fe"/>
+  <text x="354" y="228" fill="#0c4a6e" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">User</text>
+  <text x="354" y="252" fill="#075985" font-family="Inter, Arial, sans-serif" font-size="15">Compare Brazil and India on population and GDP per capita.</text>
+
+  <rect x="430" y="302" width="430" height="126" rx="18" fill="#ecfdf5"/>
+  <text x="458" y="336" fill="#065f46" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Assistant</text>
+  <text x="458" y="362" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="15">Brazil has higher GDP per capita in the demo set.</text>
+  <text x="458" y="388" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="15">India has a much larger population and broader scale.</text>
+  <rect x="458" y="406" width="210" height="12" rx="6" fill="#86efac"/>
+
+  <rect x="326" y="462" width="534" height="38" rx="19" fill="#e2e8f0"/>
+  <text x="354" y="487" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14">Ask about a country, indicator or diplomatic stance...</text>
+</svg>
