@@ -1,7 +1,7 @@
 services:
 
   db:
-    image: mongo:7
+    image: mongo:8
     restart: always
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
