@@ -6,7 +6,7 @@ services:
   # etc. To enable it, add those hosts to /etc/hosts and set:
   # DOMAIN=terraquorum.local
   proxy:
-    image: traefik:3.6
+    image: traefik:v3.7
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
